@@ -43,6 +43,20 @@ body, html {
   transition: transform 0.2s;
 }
 
+/* Adding shaking animation */
+.w3-hover-shake:hover {
+  animation: shake 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-5px);
+  }
+}
+
 @media only screen and (max-device-width: 1600px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
@@ -80,22 +94,22 @@ body, html {
   <p class="w3-center w3-medium">Innovating for a brighter future</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
-      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center w3-hover-opacity"></i>
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center w3-hover-opacity w3-hover-shake"></i>
       <p class="w3-large">Technology</p>
       <p>At the forefront of cutting-edge technologies like AI, Blockchain, and Robotics, we're dedicated to empowering our students and the community with the skills needed for tomorrow.</p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-heart w3-margin-bottom w3-jumbo w3-hover-opacity"></i>
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo w3-hover-opacity w3-hover-shake"></i>
       <p class="w3-large">Passion</p>
       <p>Driven by our passion for technology and education, we strive to create an environment where creativity and innovation flourish.</p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-lightbulb-o w3-margin-bottom w3-jumbo w3-hover-opacity"></i>
+      <i class="fa fa-lightbulb-o w3-margin-bottom w3-jumbo w3-hover-opacity w3-hover-shake"></i>
       <p class="w3-large">Innovation</p>
       <p>Our curriculum is designed to challenge our students, foster innovation, and encourage them to think beyond the conventional.</p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-group w3-margin-bottom w3-jumbo w3-hover-opacity"></i>
+      <i class="fa fa-group w3-margin-bottom w3-jumbo w3-hover-opacity w3-hover-shake"></i>
       <p class="w3-large">Community</p>
       <p>We believe in the power of community and collaboration. Together, we can achieve greater things and make a meaningful impact.</p>
     </div>

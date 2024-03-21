@@ -38,7 +38,10 @@ body, html {
 }
 
 .w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
+.w3-hover-opacity:hover { 
+  transform: scale(1.1); 
+  transition: transform 0.2s;
+}
 
 @media only screen and (max-device-width: 1600px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -74,25 +77,25 @@ body, html {
 <!-- About Section -->
 <div class="w3-container" style="padding:128px 16px" id="about">
   <h3 class="w3-center">ABOUT THE COMPANY</h3>
-    <p class="w3-center w3-medium">Innovating for a brighter future</p>
+  <p class="w3-center w3-medium">Innovating for a brighter future</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
-      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center w3-hover-opacity"></i>
       <p class="w3-large">Technology</p>
       <p>At the forefront of cutting-edge technologies like AI, Blockchain, and Robotics, we're dedicated to empowering our students and the community with the skills needed for tomorrow.</p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo w3-hover-opacity"></i>
       <p class="w3-large">Passion</p>
       <p>Driven by our passion for technology and education, we strive to create an environment where creativity and innovation flourish.</p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-lightbulb-o w3-margin-bottom w3-jumbo"></i>
+      <i class="fa fa-lightbulb-o w3-margin-bottom w3-jumbo w3-hover-opacity"></i>
       <p class="w3-large">Innovation</p>
       <p>Our curriculum is designed to challenge our students, foster innovation, and encourage them to think beyond the conventional.</p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-group w3-margin-bottom w3-jumbo"></i>
+      <i class="fa fa-group w3-margin-bottom w3-jumbo w3-hover-opacity"></i>
       <p class="w3-large">Community</p>
       <p>We believe in the power of community and collaboration. Together, we can achieve greater things and make a meaningful impact.</p>
     </div>

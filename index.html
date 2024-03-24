@@ -1,178 +1,797 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="">
+
 <head>
-<title>SATI - Sarawak Advanced Technology Institute</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-body, html {
-  height: 100%;
-  color: #000;
-  line-height: 1.8;
-}
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Sarawak Advanced Technology Institute (SATI)</title>
+  <meta name="description" content="Empowering innovation in AI, Blockchain, and Robotics through education and research.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#050508">
+  <meta name="theme-color" content="#050508">
 
-.bgimg-1 {
-  background-image: url('/images/sarawak.jpeg'); /* Update this path */
-  min-height: 100%;
-}
 
-.bgimg-2 {
-  background-image: url("/images/tech2.jpeg"); /* Update this path */
-  min-height: 400px;
-}
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <!-- Magnific Popup CSS -->
+  <link rel="stylesheet" href="assets/glightbox/css/glightbox.min.css">
+  <!--aos-->
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/main.css?v=55" />
 
-.bgimg-3 {
-  background-image: url("/images/tech1.jpeg"); /* Update this path */
-  min-height: 400px;
-}
-
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity:hover { 
-  transform: scale(1.1); 
-  transition: transform 0.2s;
-}
-
-/* Adding shaking animation */
-.w3-hover-shake:hover {
-  animation: shake 0.5s ease-in-out infinite alternate;
-}
-
-@keyframes shake {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-5px);
-  }
-}
-
-@media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
-    min-height: 400px;
-  }
-}
-</style>
 </head>
+
 <body>
+  <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
 
-<div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-university"></i> ABOUT SATI</a>
-    <a href="#programs" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-book"></i> PROGRAMS</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-  </div>
+  <!-- ======= herder start ======= -->
+  <header class="header">
+    <div class="navbar-area">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg ">
 
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT SATI</a>
-    <a href="#programs" class="w3-bar-item w3-button" onclick="toggleFunction()">PROGRAMS</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-  </div>
-</div>
+          <a class="navbar-brand" href="/">
+            <img src="assets/img/logo/satilogo1.png" alt="logo">
+          </a>
 
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">SATI - <span class="w3-hide-small">Sarawak Advanced Technology Institute</span></span>
-  </div>
-</div>
-
-<!-- About Section -->
-<div class="w3-container" style="padding:128px 16px" id="about">
-  <h3 class="w3-center">ABOUT THE COMPANY</h3>
-  <p class="w3-center w3-medium">Innovating for a brighter future</p>
-  <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
-      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center w3-hover-opacity w3-hover-shake"></i>
-      <p class="w3-large">Technology</p>
-      <p>At the forefront of cutting-edge technologies like AI, Blockchain, and Robotics, we're dedicated to empowering our students and the community with the skills needed for tomorrow.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-heart w3-margin-bottom w3-jumbo w3-hover-opacity w3-hover-shake"></i>
-      <p class="w3-large">Passion</p>
-      <p>Driven by our passion for technology and education, we strive to create an environment where creativity and innovation flourish.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-lightbulb-o w3-margin-bottom w3-jumbo w3-hover-opacity w3-hover-shake"></i>
-      <p class="w3-large">Innovation</p>
-      <p>Our curriculum is designed to challenge our students, foster innovation, and encourage them to think beyond the conventional.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-group w3-margin-bottom w3-jumbo w3-hover-opacity w3-hover-shake"></i>
-      <p class="w3-large">Community</p>
-      <p>We believe in the power of community and collaboration. Together, we can achieve greater things and make a meaningful impact.</p>
-    </div>
-  </div>
-</div>
-
-<div class="w3-content w3-container w3-padding-64" id="programs">
-    <h3 class="w3-center">OUR PROGRAMS</h3>
-    <p class="w3-center"><em>Dedicated to excellence in teaching, learning, and research</em></p>
-    <p>At SATI, we offer a range of programs designed to equip students with the skills and knowledge needed to excel in the fields of Artificial Intelligence, Blockchain, and Robotics. Our curriculum is developed in collaboration with industry experts to ensure relevance and applicability in the real world. Students can engage in hands-on learning experiences through our state-of-the-art labs, workshops, and collaborative research projects.</p>
-    <ul>
-      <li><strong>Artificial Intelligence:</strong> Dive into the world of AI with courses covering machine learning, neural networks, and cognitive computing.</li>
-      <li><strong>Blockchain:</strong> Explore the fundamentals of blockchain technology, cryptocurrency, and distributed ledger systems.</li>
-      <li><strong>Robotics:</strong> Gain practical experience in robotics design, programming, and systems integration.</li>
-    </ul>
-  </div>
-  
-  <div class="bgimg-2 w3-display-container w3-opacity-min">
-    <div class="w3-display-middle">
-      <span class="w3-xxlarge w3-text-white w3-wide">INNOVATION</span>
-    </div>
-  </div>
-  
-  <div class="w3-content w3-container w3-padding-64" id="contact">
-    <h3 class="w3-center">CONTACT US</h3>
-    <p class="w3-center"><em>We're here to help and answer any question you might have.</em></p>
-    <div class="w3-row w3-padding-32 w3-section">
-      <div class="w3-col m4 w3-container">
-        <!-- Insert your own image or map here using an <img> tag -->
-        <img src="/your_image_path_for_contact_map" class="w3-image w3-round" style="width:100%" alt="SATI Location Map">
-      </div>
-      <div class="w3-col m8 w3-panel">
-        <div class="w3-large w3-margin-bottom">
-          <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Sarawak, Malaysia<br>
-          <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +60 123 4567<br>
-          <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: info@sati.edu.my<br>
-        </div>
-        <p>Connect with us:</p>
-        <form action="/action_page.php" target="_blank">
-          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-            </div>
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-            </div>
-          </div>
-          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-right w3-section" type="submit">
-            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="toggler-icon"></span>
+            <span class="toggler-icon"></span>
+            <span class="toggler-icon"></span>
           </button>
-        </form>
+
+          <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+            <ul id="nav" class="navbar-nav nav-center">
+
+              <li class="nav-item">
+                <a class="page-scroll" href="#about"> About </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="page-scroll" href="#features"> Pillars </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="page-scroll" href="#token"> Resource AllocationS </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="page-scroll" href="#video"> Videos </a>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="page-scroll" href="#int"> Partners </a>
+              </li>
+
+            </ul>
+
+          </div>
+          <!--.collapse-->
+
+        </nav>
+
       </div>
+      <!--.container-->
+
+
     </div>
-  </div>
-  
-  <footer class="w3-center w3-black w3-padding-64">
-    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-    <div class="w3-xlarge w3-section">
-      <i class="fa fa-facebook-official w3-hover-opacity"></i>
-      <i class="fa fa-instagram w3-hover-opacity"></i>
-      <i class="fa fa-twitter w3-hover-opacity"></i>
-      <i class="fa fa-linkedin w3-hover-opacity"></i>
-    </div>
-    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-  </footer>
+    <!--.navbar-area-->
+
+  </header>
+  <!-- ======= herder end ======= -->
+
+
+  <section class="hero-area">
+    <div class="container">
+      <div class="hero-text">
+        <h1>
+          Welcome to <br>
+          Sarawak Era
+        </h1>
+      </div><!-- /.hero-text -->
+    </div><!-- /.container -->
+  </section><!-- /.hero-area -->
+
+
+  <section class="stand">
+    <div class="container">
+      <div class="stand-txt" data-aos="fade-up" data-aos-duration="3000">
+        <h2>
+          Sarawak Advanced Technology Institute (SATI) is engineered from the foundation to foster innovation in <span>Artificial Intelligence, Blockchain, and Robotics</span> — providing accessible and cutting-edge technology education for everyone.
+        </h2>
+        <!--<a href="https://medium.com/@anetaBTC/litepaper-v2-our-most-capable-wrapping-protocol-d25be35cc1a1"
+          target="_blank" class="btn-outline mt-lg-4 mt-3" style="max-width: 230px;">
+          <span>  Litepaper V2 </span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+            <path
+              d="M12.3438 4.09766L10.9338 5.50766L16.5138 11.0977H4.34375V13.0977H16.5138L10.9338 18.6877L12.3438 20.0977L20.3438 12.0977L12.3438 4.09766Z"
+              fill="white"></path>
+          </svg>
+        </a> -->
+      </div><!-- /.stand-txt -->
+    </div><!-- /.container -->
+  </section><!-- /.stand -->
+
+  <section class="meet" id="about">
+    <div class="container">
+      <div class="sec-t">
+        <h2 data-aos="fade-down" data-aos-duration="3000">
+          Discover <span>SATI</span> — <br>
+          Elevating Sarawak with Pioneering Education and Technology.
+        </h2>
+      </div><!-- /.sec-t -->
+
+      <div class="row-wrapper svg-section">
+        <span><h1>Sarawak Digital Economy</h1></span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="graph-line" viewBox="0 0 802 372" fill="none">
+          <path
+            d="M0.499282 369.902L49.9926 351.303L73.5064 333.455L91.0326 329.567L114.093 324.451L150.105 289.713L167.631 285.825L189.583 286.156L213.389 260.07L242.535 264.006L265.045 248.61L282.076 232.943L308.25 217.478L324.304 203.514L348.074 204.185L369.983 180.006L396.132 165.288L437.934 147.841L452.825 140.823L473.119 136.321L484.508 124.878L526.939 115.464C537.238 108.969 558.956 95.2841 563.448 92.5042C567.938 89.7252 595.895 72.1798 609.312 63.7544L640.676 56.7958L727.942 21.8327L776.964 7.24155L800.947 1.92091"
+            stroke="url(#paint0_linear_1355_48)" stroke-width="3" />
+          <defs>
+            <linearGradient id="paint0_linear_1355_48" x1="90.2433" y1="-339.819" x2="725.547" y2="-317.207"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#FFD464" />
+              <stop offset="1" stop-color="#56C2FF" />
+            </linearGradient>
+          </defs>
+        </svg>
+
+        <div class="row justify-content-end">
+          <div class="col-lg-3">
+            <div class="bt">
+              <div class="bt-f">
+
+              </div><!-- /.bt-f -->
+              <h5>51%</h5>
+              <span>2030</span> 
+            </div><!-- /.bt -->
+          </div><!-- /.col-lg-3 -->
+        </div><!-- /.row -->
+
+        <div class="mid-row">
+          <div class="row gy-2 justify-content-between align-items-center">
+            <div class="col-lg-4">
+              <div class="bt-d">
+                <h5>9%</h5>
+                <span><h3>2024</h3></span> 
+                <div class="btd-f">
+                  
+                  <p>
+                    *Note that evaluations are averages based on independent study and may vary
+                  </p>
+                </div><!-- /.btd-f -->
+
+              </div><!-- /.bt-d -->
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <p class="normtxt">
+                SATI planning to spearhead Sarawak's transformation, with a strategic goal to expand the digital economy's contribution from 9% to 51% between 2024 and 2030. Through advanced education and skill development, SATI is nurturing a sophisticated workforce to drive global tech innovation and economic growth.
+              </p>
+            </div><!-- /.col-lg-4 -->
+          </div><!-- /.row -->
+        </div><!-- /.mid-row -->
+
+      </div><!-- /.row-wrapper -->
+
+    </div><!-- /.container -->
+  </section><!-- /.meet -->
+
+
+
+  <section class="case">
+    <div class="container">
+      <div class="sec-t" data-aos="fade-up" data-aos-duration="3000">
+        <h2> The SATI Impact </h2>
+        <p>
+          SATI marks a significant leap forward in elevating Sarawak's economy through digital innovation and an advanced workforce.
+        </p>
+
+      </div><!-- /.sec-t -->
+
+      <div class="row g-5 justify-content-center">
+        <div class="col-lg-4 col-md-6 col-10">
+          <div class="case-single" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+            data-aos-duration="1500">
+            <img src="assets/img/case/chart-bar.svg" class="case-img" alt="chart">
+
+            <h3> Innovation-Driven Education </h3>
+            <p> Engage with cutting-edge technology and curricula designed for real-world application at SATI. </p>
+          </div><!-- /.case-single -->
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4 col-md-6 col-10">
+          <div class="case-single" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <img src="assets/img/case/cube.png" class="case-img" alt="chart">
+            <h3> Excellence and Integrity </h3>
+            <p>
+              Rigorous academic standards and industry partnerships ensure SATI's programs are both robust and forward-thinking.
+            </p>
+          </div><!-- /.case-single -->
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4 col-md-6 col-10">
+          <div class="case-single" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
+            data-aos-duration="1500">
+            <img src="assets/img/case/swap-exchange 6.svg" class="case-img" alt="chart">
+            <h3> Collaborative Learning </h3>
+            <p>
+              SATI champions open innovation, sharing knowledge and resources to drive collaborative and transparent advancements in technology.
+            </p>
+          </div><!-- /.case-single -->
+        </div><!-- /.col-lg-4 -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+  </section><!-- /.case -->
+
+
+
+
+  <section class="cbtc">
+    <div class="container">
+      <div class="sec-t">
+        <p> <span>SATI</span> sets new standards in tech education by leveraging AI, Blockchain, and Robotics to empower students and researchers.</p>
+      </div><!-- /.sec-t -->
+      
+      <table class="table comparison-table">
+        <thead>
+          <tr>
+            <th class="text-start"> <small>Aspect</small> </th>
+            <th class="bg pt-4" style="vertical-align: sub;"> <span>SATI</span> </th>
+            <th>
+              <h5> Traditional Education </h5>
+              <p>Based on standardized curricula</p>
+            </th>
+            <th>
+              <h5>Online Courses</h5>
+              <p>Based on flexibility and accessibility</p>
+            </th>
+          </tr>
+        </thead>
+      
+        <tbody>
+          <tr>
+            <td class="tit text-start">Innovation</td>
+            <td class="bg"> High </td>
+            <td> Low </td>
+            <td> Medium </td>
+          </tr>
+          <tr>
+            <td class="tit text-start">Practical Application</td>
+            <td class="bg"> Extensive </td>
+            <td> Limited </td>
+            <td>Varies</td>
+          </tr>
+          <tr>
+            <td class="tit text-start">Industry Collaboration</td>
+            <td class="bg"> Strong </td>
+            <td>Weak</td>
+            <td> Moderate </td>
+          </tr>
+        </tbody>
+      </table>
+      
+
+
+
+    </div><!-- /.container -->
+  </section><!-- /.cbtc -->
+
+  <section class="tokeno" id="token">
+    <div class="container">
+      <div class="sec-t" data-aos="fade-up" data-aos-duration="3000">
+        <h2> ALLOCATION OF RESOURCES </h2>
+      </div><!-- /.sec-t -->
+
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-5">
+          <div class="token-box">
+            <img src="assets/img/token/graph.png" class="token-graph" alt="">
+            <div class="token-text">
+              <h4> 70% </h4>
+              <p>EDUCATION & RESEARCH</p>
+            </div><!-- /.token-text -->
+          </div><!-- /.token-box -->
+        </div><!-- /.col-lg-5 -->
+        <div class="col-lg-4">
+          <div class="token-list">
+            <div class="token-point blue" data-aos="zoom-out-left" data-aos-duration="1000">
+              <h6> Education & Research </h6>
+              <p>70 %</p>
+            </div><!-- /.token-point -->
+            <div class="token-point pink" data-aos="zoom-out-left" data-aos-duration="2000">
+              <h6> Faculty Development </h6>
+              <p>20 %</p>
+            </div><!-- /.token-point -->
+            <div class="token-point green" data-aos="zoom-out-left" data-aos-duration="3000">
+              <h6> Infrastructure </h6>
+              <p>10 %</p>
+            </div><!-- /.token-point -->
+
+          </div><!-- /.token-list -->
+          <div class="text-center mt-lg-5 mt-4">
+            <a href="#" target="_blank" class="btn-round"> Explore SATI Initiatives </a>
+          </div><!-- /.text-center -->
+        </div><!-- /.col-lg-5 -->
+      </div><!-- /.row -->
+
+
+
+
+    </div><!-- /.container -->
+  </section><!-- /.tokeno -->
+
+  <section class="feature" id="features">
+    <div class="container">
+      <div class="sec-t" data-aos="fade-up" data-aos-duration="3000">
+        <h2>
+          SATI Embodies <span>3 Core Pillars</span>
+        </h2>
+      </div><!-- /.sec-t -->
+
+      <div class="row gy-5 justify-content-center">
+        <div class="col-lg-3">
+          <div class="f-con">
+            <div class="f-single">
+              <p>Innovators</p>
+              <div class="r-p" data-aos="zoom-in" data-aos-duration="1500">
+                <i></i><i></i><i></i><i></i>
+              </div><!-- /.r-p -->
+            </div><!-- /.f-single -->
+            <p class="parra">
+              Innovators drive groundbreaking projects, ensuring SATI stays at the cutting edge of technology and education.
+            </p>
+            
+          </div><!-- /.f-con -->
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <div class="f-con">
+            <div class="f-single">
+              <p data-aos="zoom-out-down" data-aos-duration="1500">Integration</p>
+              <svg class="arrow-s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 185" fill="none">
+                <path
+                  d="M131 185L139.66 170H122.34L131 185ZM0 3.5L90.5 3.5V0.5L0 0.5L0 3.5ZM129.5 42.5V171.5H132.5V42.5H129.5ZM90.5 3.5C112.039 3.5 129.5 20.9609 129.5 42.5H132.5C132.5 19.304 113.696 0.5 90.5 0.5V3.5Z"
+                  fill="url(#paint0_linear_1540_110)" />
+                <defs>
+                  <linearGradient id="paint0_linear_1540_110" x1="65.5" y1="2" x2="65.5" y2="185"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#648FFF" />
+                    <stop offset="1" stop-color="#48BDFF" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div><!-- /.f-single -->
+            <p class="parra">
+              Seamless enrollment and integration for students and educators, ensuring easy access to SATI's resources and programs.
+            </p>
+          </div><!-- /.f-con -->
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <div class="f-con">
+            <div class="f-single">
+              <p data-aos="zoom-out-down" data-aos-duration="3000">Academic Rigor</p>
+              <svg class="lok" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 142 187" fill="none">
+                <path
+                  d="M57.3421 107.145V107.14C57.3421 99.7294 63.413 93.6969 70.933 93.6969C78.4401 93.6969 84.503 99.7087 84.5238 107.102C84.3599 110.148 83.1246 113.045 81.0281 115.288C78.333 118.076 77.3965 122.109 78.5979 125.789L78.6145 125.84L78.6346 125.889L80.8909 131.43C81.5946 133.514 81.2483 135.807 79.9541 137.598C78.6514 139.401 76.5459 140.476 74.2966 140.477C74.2964 140.477 74.2963 140.477 74.2961 140.477H67.5804C65.4067 140.444 63.3775 139.409 62.0906 137.686C60.8088 135.97 60.4076 133.765 60.9997 131.718L62.8977 126.169L62.9011 126.159L62.9044 126.149C64.1026 122.479 63.1743 118.458 60.4959 115.67C58.4488 113.291 57.331 110.267 57.3421 107.145ZM112.615 27.0226V27.0237C112.615 35.8085 115.923 43.8198 120.261 51.3349C122.432 55.0956 124.88 58.7632 127.327 62.3565C127.759 62.9909 128.191 63.6225 128.621 64.252C130.637 67.202 132.619 70.1034 134.447 73.01C139.3 80.7265 141.477 90.0796 140.087 99.6171L131.457 151.519C127.436 171.648 109.351 186.002 88.6066 185.487L88.5879 185.486H88.5693H53.2967H53.2802L53.2637 185.486C32.6678 185.94 14.7124 171.74 10.5899 151.784L1.96111 99.89C1.96067 99.8871 1.96022 99.8842 1.95978 99.8813C0.483998 90.2908 2.62371 80.8617 7.48036 73.0795C9.31808 70.1348 11.3153 67.1955 13.3459 64.2071C13.7537 63.607 14.1628 63.0048 14.5723 62.4003C17.0112 58.7995 19.4528 55.1251 21.6188 51.3587C25.9473 43.8323 29.2513 35.8132 29.2513 27.0237V27.0226C29.2466 20.0979 32.0874 13.4661 37.1256 8.6538C42.1643 3.84092 48.967 1.26278 55.9695 1.51719L55.9967 1.51818H56.0239H85.842H85.8693L85.8965 1.51719C92.8989 1.26278 99.7017 3.84092 104.74 8.6538C109.779 13.4661 112.619 20.0979 112.615 27.0226ZM39.8891 26.9564L39.8876 26.99V27.0237C39.8876 41.6233 51.723 53.4587 66.3226 53.4587H75.5433C90.1429 53.4587 101.978 41.6233 101.978 27.0237V26.99L101.977 26.9564C101.595 18.4555 94.3612 11.8808 85.8132 12.201H56.0526C47.5047 11.8808 40.2704 18.4555 39.8891 26.9564ZM117.853 149.41L117.859 149.378L117.865 149.346L126.956 97.2256L126.961 97.1963L126.965 97.1668C127.926 89.9829 125.622 82.7496 120.679 77.4151C114.74 70.752 106.162 66.9914 97.1956 67.1121H44.6746C35.7343 66.9447 27.1591 70.6383 21.1847 77.2373L21.1789 77.2438L21.1731 77.2504C16.3409 82.7145 14.2094 90.0265 15.3611 97.2055L15.3624 97.2131L23.9987 149.334L24.0051 149.372L24.0134 149.41C26.9882 162.961 39.3666 172.41 53.3282 171.833H88.5377C102.499 172.41 114.878 162.961 117.853 149.41Z"
+                  stroke="url(#paint0_linear_1540_109)" stroke-width="3" />
+                <defs>
+                  <linearGradient id="paint0_linear_1540_109" x1="71" y1="0" x2="71" y2="187"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#648FFF" />
+                    <stop offset="1" stop-color="#48BDFF" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div><!-- /.f-single -->
+            <p class="parra">
+              SATI ensures robust educational quality and integrity, backed by comprehensive audits and a decentralized approach to learning.
+            </p>
+          </div><!-- /.f-con -->
+        </div><!-- /.col-lg-3 -->
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+  </section><!-- /.feature -->
+
+
+  <section class="anytime">
+    <div class="container">
+      <div class="sec-t" data-aos="zoom-in" data-aos-duration="2000">
+        <h2> <span>Technology & Innovation</span> - Accessible to All </h2>
+        <p>SATI's programs are designed to integrate seamlessly into the global digital landscape, supporting advancements in AI, Blockchain, and Robotics across various sectors.</p>
+
+
+      <div class="phone-screenshot">
+        <img src="assets/img/screenshots/aieconomy.jpg" class="mobile-screen" alt="" data-aos="flip-left"
+          data-aos-duration="3000">
+
+        <img src="assets/img/screenshots/class.png" class="mobile-screen" alt="" data-aos="flip-right"
+          data-aos-duration="3000">
+      </div><!-- /.phone-screenshot -->
+
+    </div><!-- /.container -->
+  </section><!-- /.anytime -->
+
+  <section class="video-cta" id="video">
+    <div class="container">
+      <div class="sec-t" data-aos="zoom-in" data-aos-duration="2000">
+        <h2> Exploring SATI's Innovations </h2>
+        <p>
+          Dive into the breakthroughs in AI, Blockchain, and Robotics at SATI. Interested in deeper insights? 
+          Discover our educational resources here.
+        </p>
+      </div><!-- /.sec-t -->
+      <div class="video-banner">
+        <img src="assets/img/videos/big.png" class="w-100" alt="">
+        <a href="assets/img/videos/launch-vid.mp4" class="play-btn glightbox">
+          <img src="assets/img/screenshots/play.svg" alt="">
+        </a>
+      </div><!-- /.video-banner -->
+    </div><!-- /.container -->
+  </section><!-- /.video-cta -->
+
+  <section class="potent">
+    <div class="container">
+      <div class="sec-t" data-aos="zoom-in" data-aos-duration="2000">
+        <h2> The Future with SATI in Sarawak </h2>
+        <p>Explore how SATI is shaping Sarawak’s technological landscape and hear success stories from the local and global community.</p>
+        <a href="https://medium.com/@anetaBTC/litepaper-v2-our-most-capable-wrapping-protocol-d25be35cc1a1"
+          target="_blank" class="btn-outline" style="max-width: 230px;">
+          <span>  SATI </span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+            <path
+              d="M12.3438 4.09766L10.9338 5.50766L16.5138 11.0977H4.34375V13.0977H16.5138L10.9338 18.6877L12.3438 20.0977L20.3438 12.0977L12.3438 4.09766Z"
+              fill="white"></path>
+          </svg>
+        </a>
+      </div><!-- /.sec-t -->
+
+      <div class="row gx-lg-5 gx-4 justify-content-evenly">
+
+        <div class="col-xl-5 col-lg-5 col-md-6">
+          <div class="po-single" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <a href="https://www.youtube.com/watch?v=exampleLink1"
+              class="d-block w-100 img-con glightbox">
+              <img src="assets/img/innovations/AI-innovation.png" class="w-img" alt="AI Innovation in Sarawak">
+              <img src="assets/img/screenshots/play.svg" class="play-btn" alt="play">
+            </a>
+            <span> AI Development </span>
+            <h4>
+              Empowering Sarawak's <br>
+              Education System
+            </h4>
+          </div><!-- /.po-single -->
+        </div><!-- /.col-xl-5 -->
+      
+        <div class="col-xl-5 col-lg-5 col-md-6">
+          <div class="po-single" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <a href="https://www.youtube.com/watch?v=exampleLink2" class="d-block w-100 img-con glightbox">
+              <img src="assets/img/innovations/blockchain-project.png" class="w-img" alt="Blockchain Project">
+              <img src="assets/img/screenshots/play.svg" class="play-btn" alt="play">
+            </a>
+            <span> Blockchain Initiative </span>
+            <h4>
+              Revolutionizing <br>
+              Sarawak's Industries
+            </h4>
+          </div><!-- /.po-single -->
+        </div><!-- /.col-xl-5 -->
+      
+        <div class="col-xl-5 col-lg-5 col-md-6">
+          <div class="po-single" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <a href="https://www.youtube.com/watch?v=exampleLink3"
+              class="d-block w-100 img-con glightbox">
+              <img src="assets/img/innovations/robotics-education.png" class="w-img" alt="Robotics in Education">
+              <img src="assets/img/screenshots/play.svg" class="play-btn" alt="play">
+            </a>
+            <span> Robotics </span>
+            <h4>Sarawak's Path <br>
+              to Technological Leadership</h4>
+          </div><!-- /.po-single -->
+        </div><!-- /.col-xl-5 -->
+      
+      </div><!-- /.row -->
+      
+      </div><!-- /.container -->
+      </section><!-- /.potent -->
+      
+
+  <section class="cta-1">
+    <div class="container">
+      <div class="cta-circle">
+        <div class="cta-txt" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+          <h2> New Horizons with SATI </h2>
+          <p> Explore SATI's innovations in AI, Blockchain, and Robotics to unlock new educational and technological frontiers. </p>
+          <a href="https://twitter.com/anetabtc?s=21&t=X1sJLYL6zORh4pcBGIlQCw" target="_blank"
+            class="btn-outline-light">
+            <span> SATI Twitter </span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+              <path
+                d="M12.3438 4.09766L10.9338 5.50766L16.5138 11.0977H4.34375V13.0977H16.5138L10.9338 18.6877L12.3438 20.0977L20.3438 12.0977L12.3438 4.09766Z"
+                fill="white"></path>
+            </svg>
+          </a>
+        </div><!-- /.cta-txt -->
+      </div><!-- /.cta-circle -->
+    </div><!-- /.container -->
+  </section><!-- /.cta-1 -->
+
+  <section class="cta-2">
+    <div class="container">
+      <div class="cta-txt" data-aos="fade-down" data-aos-anchor-placement="top-bottom">
+        <h2> Collaborative Innovation </h2>
+        <p> Engage with SATI's pioneering research and open-source projects </p>
+        <a href="https://github.com/orgs/anetalabs/repositories" target="_blank" class="btn-round-light"> View Code </a>
+      </div><!-- /.cta-txt -->
+    </div><!-- /.container -->
+  </section><!-- /.cta-2 -->
+
+  <section class="clients" id="int">
+    <div class="container">
+      <div class="sec-t">
+        <h2> Our Partners </h2>
+      </div><!-- /.sec-t -->
+
+      <div class="row-wrapper">
+        <div class="row gy-5">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="client-single">
+              <img src="assets/img/clients/unimaslogo.png" class="client-img" alt="">
+              <p> UNIMAS </p>
+            </div><!-- /.client-single -->
+          </div><!-- /.col-lg-3 -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="client-single">
+              <img src="assets/img/clients/mitlogo.png" class="client-img" alt="">
+              <p> MIT </p>
+            </div><!-- /.client-single -->
+          </div><!-- /.col-lg-3 -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="client-single">
+              <img src="assets/img/clients/bdlogo.svg" class="client-img" alt="">
+              <p> Boston Dynamics </p>
+            </div><!-- /.client-single -->
+          </div><!-- /.col-lg-3 -->
+
+          <div class="col-lg-3 col-md-4">
+            <div class="client-single">
+              <img src="assets/img/clients/teddy-swap.png" class="client-img" alt="">
+              <p> Teddy AI Research Lab </p>
+            </div><!-- /.client-single -->
+          </div><!-- /.col-lg-3 -->
+
+        </div><!-- /.row -->
+      </div><!-- /.row-wrapper -->
+
+    </div><!-- /.container -->
+  </section><!-- /.clients -->
+
+  <section class="social-section">
+    <div class="container">
+      <div class="sec-t">
+        <h2> Join SATI </h2>
+        <p> Become part of a committed community shaping the future of technology and education in Sarawak - innovative, inclusive, and impactful. </p>
+      </div><!-- /.sec-t -->
+
+      <div class="social-conx">
+        <a href="https://twitter.com/anetabtc?s=21&t=X1sJLYL6zORh4pcBGIlQCw" target="_blank">
+          <img src="assets/img/social/twitter.svg" alt="">
+          <p> Twitter </p>
+        </a>
+        <a href="https://discord.com/invite/S85CKeyHTc" target="_blank">
+          <img src="assets/img/social/discord.svg" alt="">
+          <p> Discord </p>
+        </a>
+        <a href="https://medium.com/@anetaBTC" target="_blank">
+          <img src="assets/img/social/medium.svg" alt="">
+          <p> Medium </p>
+        </a>
+      </div><!-- /.social-conx -->
+
+    </div><!-- /.container -->
+  </section><!-- /.social-section -->
+
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-10">
+          <div class="row gy-4">
+            <div class="col-lg-4">
+              <div class="footer-logo-w">
+                <img src="assets/img/logo/satilogo1.png" class="footer-logo" alt="">
+
+              </div><!-- /.footer-logo-w -->
+            </div><!-- /.col-lg-3 -->
+            <div class="col-lg-2">
+              <div class="footer-links">
+                <h5> SATI </h5>
+                <ul>
+
+
+                  <li>
+                    <a href="https://docs.anetabtc.io/" target="_blank">Docs </a>
+                  </li>
+                  <li>
+                    <a href="https://medium.com/@anetaBTC" target="_blank">
+                      News & Updates
+                    </a>
+                  </li>
+
+
+                </ul>
+              </div><!-- /.footer-links -->
+            </div><!-- /.col-lg-3 -->
+
+            <div class="col-lg-2">
+              <div class="footer-links">
+                <h5> Resources </h5>
+                <ul>
+
+
+
+                  <li>
+                    <a href="https://medium.com/@anetaBTC/litepaper-v2-our-most-capable-wrapping-protocol-d25be35cc1a1"
+                      target="_blank">
+                      Documents
+                    </a>
+                  </li>
+
+
+
+                </ul>
+              </div><!-- /.footer-links -->
+            </div><!-- /.col-lg-3 -->
+
+            <div class="col-lg-3">
+              <div class="footer-links">
+                <h5> Foundation </h5>
+                <ul>
+                  <li>
+                    <a href="mailto:info@anetabtc.io">info@sati.io</a>
+                  </li>
+
+                </ul>
+              </div><!-- /.footer-links -->
+            </div><!-- /.col-lg-3 -->
+
+          </div><!-- /.row -->
+        </div><!-- /.col-lg-9 -->
+
+        <div class="col-lg-2">
+          <div class="footer-social">
+            <a target="_blank" href="https://twitter.com/anetabtc?s=21&t=X1sJLYL6zORh4pcBGIlQCw">
+
+              <svg width="38" height="37" viewBox="0 0 38 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M0 5.78125C0 2.58835 2.65831 0 5.9375 0H32.0625C35.3417 0 38 2.58835 38 5.78125V31.2188C38 34.4116 35.3417 37 32.0625 37H5.9375C2.65831 37 0 34.4116 0 31.2188V5.78125ZM26.2437 13.2969C27.075 13.1812 27.7875 13.0656 28.5 12.7188C28.025 13.5281 27.3125 14.2219 26.4812 14.6844C26.7188 20.1187 22.6812 26.0156 15.4375 26.0156C13.3 26.0156 11.2812 25.3219 9.5 24.2812C11.5188 24.5125 13.6562 23.9344 15.0813 22.8937C13.3 22.8937 11.875 21.7375 11.4 20.2344C11.9938 20.35 12.5875 20.2344 13.1813 20.1187C11.4 19.6562 10.0938 18.0375 10.0938 16.3031C10.6875 16.5344 11.2812 16.7656 11.875 16.7656C10.2125 15.6094 9.61875 13.4125 10.6875 11.6781C12.7063 13.9906 15.5563 15.4937 18.7625 15.6094C18.1688 13.2969 20.0688 10.9844 22.5625 10.9844C23.6313 10.9844 24.7 11.4469 25.4125 12.1406C26.3625 11.9094 27.1938 11.6781 27.9062 11.2156C27.6687 12.1406 27.075 12.8344 26.2437 13.2969Z" />
+              </svg>
+
+            </a>
+
+            <a target="_blank" href="https://t.me/anetabtc">
+
+              <svg width="38" height="37" viewBox="0 0 38 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M5.9375 0H32.0625C35.3417 0 38 2.58835 38 5.78125V31.2188C38 34.4116 35.3417 37 32.0625 37H5.9375C2.65831 37 0 34.4116 0 31.2188V5.78125C0 2.58835 2.65831 0 5.9375 0ZM19.8216 13.8835C18.1199 14.5727 14.7189 15.9991 9.61865 18.1627C8.79045 18.4834 8.3566 18.7971 8.3171 19.1039C8.25036 19.6223 8.91711 19.8264 9.82506 20.1044C9.94857 20.1422 10.0765 20.1814 10.2077 20.2229C11.101 20.5057 12.3026 20.8364 12.9273 20.8496C13.494 20.8615 14.1264 20.634 14.8246 20.1672C19.59 17.0351 22.0498 15.452 22.2043 15.4179C22.3132 15.3938 22.4642 15.3635 22.5665 15.4521C22.6688 15.5406 22.6588 15.7082 22.6479 15.7532C22.5819 16.0274 19.9646 18.3966 18.6102 19.6227C18.1879 20.0049 17.8884 20.276 17.8272 20.338C17.69 20.4767 17.5502 20.6079 17.4159 20.734C16.586 21.5129 15.9637 22.0971 17.4503 23.051C18.1648 23.5094 18.7365 23.8885 19.3068 24.2667C19.9297 24.6797 20.5509 25.0916 21.3547 25.6047C21.5595 25.7354 21.7551 25.8711 21.9456 26.0034C22.6705 26.5065 23.3217 26.9586 24.1263 26.8865C24.5938 26.8446 25.0767 26.4166 25.3219 25.14C25.9015 22.1231 27.0408 15.5864 27.3041 12.8927C27.3271 12.6567 27.2981 12.3547 27.2748 12.2221C27.2515 12.0895 27.2028 11.9006 27.0258 11.7608C26.8162 11.5952 26.4926 11.5602 26.3479 11.5626C25.6898 11.574 24.6802 11.9158 19.8216 13.8835Z" />
+              </svg>
+
+            </a>
+            <a target="_blank" href="https://discord.com/invite/S85CKeyHTc">
+
+              <svg width="38" height="37" viewBox="0 0 38 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M21.071 21.7375C21.356 22.089 21.698 22.4867 21.698 22.4867C23.7975 22.422 24.605 21.0807 24.605 21.0807C24.605 18.1022 23.237 15.688 23.237 15.688C21.869 14.689 20.5675 14.7167 20.5675 14.7167L20.4345 14.8647C22.0495 15.3457 22.8 16.0395 22.8 16.0395C21.812 15.5123 20.843 15.2533 19.9405 15.1515C19.2565 15.0775 18.601 15.096 18.0215 15.17C17.9717 15.17 17.9292 15.177 17.8813 15.185L17.86 15.1885C17.5275 15.2162 16.72 15.3365 15.7035 15.7713C15.352 15.9285 15.143 16.0395 15.143 16.0395C15.143 16.0395 15.9315 15.3088 17.6415 14.8278L17.5465 14.7167C17.5465 14.7167 16.245 14.689 14.877 15.688C14.877 15.688 13.509 18.1022 13.509 21.0807C13.509 21.0807 14.307 22.422 16.4065 22.4867C16.4065 22.4867 16.758 22.0705 17.043 21.719C15.8365 21.3675 15.3805 20.6275 15.3805 20.6275C15.3805 20.6275 15.4755 20.6922 15.6465 20.7847C15.656 20.794 15.6655 20.8033 15.6845 20.8125C15.6988 20.8218 15.713 20.8287 15.7273 20.8356C15.7415 20.8426 15.7558 20.8495 15.77 20.8587C16.0075 20.9883 16.245 21.09 16.4635 21.1732C16.853 21.3212 17.3185 21.4692 17.86 21.571C18.5725 21.7005 19.4085 21.7467 20.3205 21.5802C20.767 21.5063 21.223 21.3767 21.698 21.1825C22.0305 21.0623 22.401 20.8865 22.7905 20.6367C22.7905 20.6367 22.3155 21.3953 21.071 21.7375ZM16.3115 19.1938C16.3115 18.6295 16.739 18.167 17.2805 18.167C17.822 18.167 18.259 18.6295 18.2495 19.1938C18.2495 19.758 17.822 20.2205 17.2805 20.2205C16.7485 20.2205 16.3115 19.758 16.3115 19.1938ZM19.779 19.1938C19.779 18.6295 20.2065 18.167 20.748 18.167C21.2895 18.167 21.717 18.6295 21.717 19.1938C21.717 19.758 21.2895 20.2205 20.748 20.2205C20.216 20.2205 19.779 19.758 19.779 19.1938Z" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M32.0625 0C35.3417 0 38 2.58835 38 5.78125V31.2188C38 34.4116 35.3417 37 32.0625 37H5.9375C2.65831 37 0 34.4116 0 31.2188V5.78125C0 2.58835 2.65831 0 5.9375 0H32.0625ZM12.635 10.4062H25.365C26.4385 10.4062 27.3125 11.2572 27.3125 12.3117V28.9062L25.27 27.1488L24.1205 26.1127L22.9045 25.012L23.408 26.7232H12.635C11.5615 26.7232 10.6875 25.8722 10.6875 24.8178V12.3117C10.6875 11.2572 11.5615 10.4062 12.635 10.4062Z" />
+              </svg>
+
+            </a>
+
+            <a target="_blank" href="https://medium.com/@anetaBTC">
+
+              <svg width="38" height="37" viewBox="0 0 38 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M5.9375 0H32.0625C35.3417 0 38 2.58836 38 5.78125V31.2188C38 34.4116 35.3417 37 32.0625 37H5.9375C2.65832 37 0 34.4116 0 31.2188V5.78125C0 2.58836 2.65832 0 5.9375 0ZM11.5188 13.5281C11.6375 13.6437 11.7562 13.875 11.7562 14.1062V22.2C11.875 22.5469 11.7562 22.7781 11.5188 23.0094L9.5 25.3219V25.6687H15.0813V25.3219L13.0625 23.0094C12.9437 22.7781 12.825 22.5469 12.825 22.2V15.1469L17.8125 25.6687H18.2875L22.5625 15.1469V23.5875C22.5625 23.8187 22.5625 23.9344 22.4437 24.05L20.9 25.5531V25.9H28.3812V25.5531L26.9563 24.1656C26.8375 24.05 26.8375 23.8187 26.8375 23.7031V13.2969C26.7188 13.0656 26.8375 12.95 26.9563 12.8344L28.5 11.4469V11.1H23.275L19.475 20.2344L15.2 11.1H9.73751V11.4469L11.5188 13.5281Z" />
+              </svg>
+
+            </a>
+          </div><!-- /.footer-social -->
+          <div class="legal-text">
+            <p>
+              SATI is a Malaysia
+              <br> based Organisation.
+            </p>
+          </div><!-- /.legal-text -->
+
+        </div><!-- /.col-lg-3 -->
+
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+  </footer><!-- /.main-footer -->
+
+
+
+  <div class="page-loader">
+    <span class="loader"></span>
+  </div><!-- /.page-loader -->
+
+
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!-- Magnific Popup JS -->
+  <!-- aos JS -->
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/js/main.js?v=1"></script>
+
+
+
+  <script>
+    // Function to check if an element is in the viewport
+    function isInViewport(element) {
+      var rect = element.getBoundingClientRect();
+      return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+    }
+
+    // Function to reset the animation
+    function resetAnimation() {
+      var graphLine = document.querySelector('.graph-line');
+      graphLine.style.animation = 'none';
+      graphLine.offsetHeight; // Trigger reflow
+      graphLine.style.animation = 'draw 3s ease forwards';
+    }
+
+    // Add scroll event listener to check the viewport visibility on scroll
+    window.addEventListener('scroll', function () {
+      if (isInViewport(document.querySelector('.svg-section'))) {
+        var graphLine = document.querySelector('.graph-line');
+        // If the animation is not completed, start or resume the animation
+        if (graphLine.style.strokeDashoffset !== '0px') {
+          graphLine.style.animationPlayState = 'running';
+        } else {
+          // If the animation is completed, reset the animation
+          resetAnimation();
+        }
+      }
+    });
+  </script>
+
+  <script>
+    //========= glightbox
+    const glightbox = GLightbox({
+      selector: ".glightbox",
+    });
+  </script>
+
+
+</body>
+
+
+</html>

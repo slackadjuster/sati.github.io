@@ -72,7 +72,7 @@
   
   
   
-  const words = ['Innovation', 'Technology', 'Education', 'Sarawak', 'Digital', 'AI', 'Blockchain', 'Robotics']; // Add your words here
+  const words = ['Digital', 'AI', 'Robotic', 'Future']; // Add your words here
   const wordElement = document.getElementById('word');
   let currentIndex = 0;
 

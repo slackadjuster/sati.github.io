@@ -74,7 +74,7 @@
         font-size: 12px;
         letter-spacing: 1.5px;
         text-transform: uppercase;
-        color: #F7F7F7;
+        color: #bbb;
         transition: all 0.3s ease-out 0s;
         padding: 10px 0;
         position: relative;
@@ -228,7 +228,7 @@
       transition: all 0.2s ease-in;
       &:hover {
        background-color: $primary-color;
-       color: #fff !important;
+       color: #000 !important;
       }
       img{
         height: 14px;

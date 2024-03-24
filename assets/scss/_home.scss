@@ -415,7 +415,7 @@
   border-collapse: collapse;
   margin-bottom: 50px;
   & > :not(caption) > * > * {
-    border-color: #ffffff26;
+    border-color: #00000026;
   }
   @media only screen and (max-width: 767px) {
     margin-bottom: 40px;
@@ -544,7 +544,7 @@
       margin-bottom: 16px;
     }
     h2 {
-      color: #f7f7f7;
+      color: #bbb;
       text-align: center;
       font-family: $font-family-outfit;
       font-size: 47px;
@@ -727,7 +727,7 @@
       margin-bottom: 70px;
     }
     h2 {
-      color: #f7f7f7;
+      color: #bbb;
       text-align: center;
       font-family: $font-family-outfit;
       font-size: 47px;
@@ -1042,9 +1042,9 @@
     z-index: -1;
     background: radial-gradient(
       70.71% 70.71% at 50% 50%,
-      rgba(144, 172, 255, 0.2) 0%,
-      rgba(144, 172, 255, 0) 70%,
-      rgba(144, 172, 255, 0) 100%
+      rgba(255, 172, 122, 0.2) 0%,
+      rgba(255, 172, 122, 0) 70%,
+      rgba(255, 172, 122, 0) 100%
     );
     @media only screen and (max-width: 1199px) {
       width: 1000px;
@@ -1068,7 +1068,7 @@
     }
     h2 {
       font-family: $font-family-outfit;
-      color: #fff;
+      color: #000;
       font-size: 64px;
       font-style: normal;
       font-weight: 500;

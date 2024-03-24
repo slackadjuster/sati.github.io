@@ -667,6 +667,12 @@ h6 a {
   font-weight: 400;
   letter-spacing: 3px;
 }
+.hero-area .page-title h1 {
+  color: #b20000;
+  font-family: "Outfit", sans-serif;
+  line-height: 1.1;
+  font-style: normal;
+}
 @media only screen and (max-width: 1399px) {
   .hero-area .hero-text h1 {
     font-size: 105px;

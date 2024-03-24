@@ -611,7 +611,7 @@ h6 a {
 }
 .nav-social .nav-item .apply-btn:hover {
   background-color: #ff0000;
-  color: #bbb !important;
+  color: #777 !important;
 }
 .nav-social .nav-item .apply-btn img {
   height: 14px;
@@ -2500,7 +2500,7 @@ h6 a {
   }
 }
 .social-conx a p {
-  color: #ccc;
+  color: #777;
 }
 @media only screen and (max-width: 767px) {
   .social-conx a p {
@@ -2569,7 +2569,7 @@ h6 a {
 .footer-links ul a {
   text-decoration: none;
   display: inline-block;
-  color: #c2cad1;
+  color: #777;
   font-size: 13px;
   font-weight: 400;
   -webkit-transition: all 0.2s ease-in;

@@ -89,6 +89,7 @@
     }, 2000); // Word display time (3s = 3000ms)
   }
 
+
   // Start the animation
   fadeInWord();
 

@@ -722,6 +722,7 @@ h6 a {
   transition: opacity 1s ease-in-out, transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
   width: 500px; /* Set a fixed width for the span */
   text-align: right;
+  white-space: nowrap;
 }
 @media only screen and (max-width: 1399px) {
   .hero-area .hero-text h1 span {

@@ -725,9 +725,7 @@ h6 a {
 }
 @media only screen and (max-width: 1399px) {
   .hero-area .hero-text h1 span {
-    width: 500px;
-    display: flex; /* Enables Flexbox */
-    align-items: baseline; /* Aligns items on their baseline to keep text aligned */
+    width: auto;
     white-space: nowrap; /* Prevents wrapping to a new line */
   }
 }

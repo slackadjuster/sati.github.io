@@ -1239,7 +1239,7 @@ h6 a {
   float: left; /* Floats the image to the left */
   margin-right: 20px; /* Adds some space between the image and the text */
   width: auto; /* Maintain the image's aspect ratio */
-  height: 300px; /* Example height, adjust as needed */
+  height: 400px; /* Example height, adjust as needed */
 }
 
 .cbtc h2 {

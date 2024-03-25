@@ -669,7 +669,7 @@ h6 a {
   color: #c30000;
   font-family: "Outfit", sans-serif;
   font-size: 140px;
-  line-height: 1.1;
+  line-height: 1.3;
   font-style: bold;
   font-weight: 600;
   letter-spacing: 3px;
@@ -704,6 +704,7 @@ h6 a {
 @media only screen and (max-width: 482px) {
   .hero-area .hero-text h1 {
     font-size: 42px;
+    
   }
 }
 .hero-area .hero-text h1 span {
@@ -719,8 +720,8 @@ h6 a {
   transition: opacity 1s ease-in-out, -webkit-transform 1s ease-in-out;
   transition: opacity 1s ease-in-out, transform 1s ease-in-out;
   transition: opacity 1s ease-in-out, transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
-  width: 480px; /* Set a fixed width for the span */
-  text-align: center;
+  width: 500px; /* Set a fixed width for the span */
+  text-align: right;
 }
 @media only screen and (max-width: 1399px) {
   .hero-area .hero-text h1 span {

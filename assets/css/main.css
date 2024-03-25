@@ -619,6 +619,7 @@ h6 a {
   margin-left: 10px;
 }
 
+
 /*--------------------------------------------------------------
   ## hero-area
 --------------------------------------------------------------*/
@@ -1225,39 +1226,58 @@ h6 a {
   }
 }
 
-/*--------------------------------------------------------------
-  ## cbtc
---------------------------------------------------------------*/
+/* cbtc */
 .cbtc {
-  padding: 80px 0px;
+  padding: 80px 96px; /* Same padding as before, 1 inch on each side */
 }
+
+.cbtc .sec-content {
+  position: relative; /* To position the premier's image within this container */
+}
+
+.premier-image {
+  float: left; /* Floats the image to the left */
+  margin-right: 20px; /* Adds some space between the image and the text */
+  width: auto; /* Maintain the image's aspect ratio */
+  height: 300px; /* Example height, adjust as needed */
+}
+
+.cbtc h2 {
+  text-align: center; /* Aligns the title to the left */
+  margin-top: 0; /* Removes any top margin from the title if not needed */
+}
+
+.cbtc p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 @media only screen and (max-width: 767px) {
   .cbtc {
-    padding: 50px 0px;
+    padding: 50px 96px; /* Adjusted padding for mobile screens */
+  }
+
+  .premier-image {
+    float: none; /* Prevents the image from floating on smaller screens */
+    display: block; /* Centers the image */
+    height: auto; /* Adjust height to be responsive */
+    margin: 0 auto 20px; /* Adds margin to the bottom and centers the image */
+  }
+
+  .cbtc h2, .cbtc p {
+    text-align: left; /* Ensures text is aligned left on smaller screens */
   }
 }
-.cbtc .sec-t {
-  max-width: 700px;
-  margin-bottom: 60px;
-}
-@media only screen and (max-width: 767px) {
-  .cbtc .sec-t {
-    margin-bottom: 40px;
-  }
-}
-.cbtc .sec-t p {
-  font-size: 22px;
-  font-weight: 400;
-}
+
 @media only screen and (max-width: 991px) {
-  .cbtc .sec-t p {
+  .cbtc p {
     font-size: 20px;
   }
 }
-.cbtc .sec-t span {
-  font-weight: 700;
-  color: #bbb;
-}
+
+
 
 /*--------------------------------------------------------------
   ## table

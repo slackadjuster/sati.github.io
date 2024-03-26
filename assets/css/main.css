@@ -1715,7 +1715,7 @@ h6 a {
   margin-right: auto;
   height: 66px;
   border-radius: 40.5px;
-  border: 3px solid #f0DC82;
+  border: 3px solid #ffe39b;
   background: rgba(255, 255, 255, 0.2);
   margin-bottom: 80px;
 }
@@ -1746,7 +1746,7 @@ h6 a {
   -webkit-transform: skewY(8deg);
           transform: skewY(8deg);
   border-radius: 40.5px;
-  border: 3px solid #969695;
+  border: 3px solid #ffe39b;;
   margin-left: 18px;
 }
 @media only screen and (max-width: 991px) {

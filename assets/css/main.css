@@ -1115,11 +1115,13 @@ h6 a {
 @media only screen and (max-width: 991px) {
   .row-wrapper .bt span {
     font-size: 30px;
+
   }
 }
 @media only screen and (max-width: 767px) {
   .row-wrapper .bt span {
     font-size: 25px;
+    
   }
 }
 .row-wrapper .bt h5 {
@@ -1133,8 +1135,13 @@ h6 a {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding-left: 20px;
+  padding-left: 60px;
 }
+
+.row-wrapper .bt h3 {
+  padding-left: 60px;
+}
+
 @media only screen and (max-width: 991px) {
   .row-wrapper .bt h5 {
     font-size: 70px;

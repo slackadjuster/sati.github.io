@@ -1887,11 +1887,13 @@ h6 a {
           justify-content: center;
   margin-left: -20px;
   margin-right: -20px;
+  object-fit: cover;
 }
 @media only screen and (max-width: 767px) {
   .phone-screenshot {
     margin-left: -10px;
     margin-right: -10px;
+    object-fit: cover;
   }
 }
 .phone-screenshot .mobile-screen {
@@ -1899,17 +1901,20 @@ h6 a {
   margin-right: 20px;
   width: 100%;
   max-width: 240px;
+  object-fit: cover;
 }
 @media only screen and (max-width: 767px) {
   .phone-screenshot .mobile-screen {
     max-width: 200px;
     margin-left: 10px;
     margin-right: 10px;
+    object-fit: cover;
   }
 }
 @media only screen and (max-width: 482px) {
   .phone-screenshot .mobile-screen {
     max-width: 150px;
+    object-fit: cover;
   }
 }
 @media only screen and (max-width: 991px) {

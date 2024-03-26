@@ -2501,6 +2501,7 @@ h6 a {
   width: 150px;
   height: 150px;
   border-radius: 25px;
+  object-fit: cover;
 }
 .clients .client-single p {
   padding-top: 8px;

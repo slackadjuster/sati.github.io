@@ -726,13 +726,14 @@ h6 a {
 }
 @media only screen and (max-width: 1399px) {
   .hero-area .hero-text h1 span {
-    width: auto;
+    width: 500px;
     white-space: nowrap; /* Prevents wrapping to a new line */
   }
 }
 @media only screen and (max-width: 482px) {
   .hero-area .hero-text h1 span {
     width: 145px; /* Set a fixed width for the span */
+    white-space: nowrap;
   }
 }
 
@@ -835,26 +836,31 @@ h6 a {
   color: #b20000;
   letter-spacing: 1.2px;
   margin-bottom: 16px;
+  white-space: nowrap;
 }
 @media only screen and (max-width: 1199px) {
   .case .sec-t h2 {
     font-size: 60px;
+    white-space: nowrap;
   }
 }
 @media only screen and (max-width: 991px) {
   .case .sec-t h2 {
     font-size: 45px;
+    white-space: nowrap;
   }
 }
 @media only screen and (max-width: 767px) {
   .case .sec-t h2 {
     font-size: 40px;
     margin-bottom: 10px;
+    white-space: nowrap;
   }
 }
 @media only screen and (max-width: 767px) {
   .case .sec-t h2 {
     font-size: 33px;
+    white-space: nowrap;
   }
 }
 .case .sec-t p {
@@ -945,6 +951,7 @@ h6 a {
 .case-single:hover .case-img {
   -webkit-animation: shake 0.5s ease-in-out infinite;
           animation: shake 0.5s ease-in-out infinite;
+  animation-iteration-count: 2;
 }
 
 /* Define the keyframe animation */
@@ -1708,7 +1715,7 @@ h6 a {
   margin-right: auto;
   height: 66px;
   border-radius: 40.5px;
-  border: 3px solid #ffe39b;
+  border: 3px solid #f0DC82;
   background: rgba(255, 255, 255, 0.2);
   margin-bottom: 80px;
 }

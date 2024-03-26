@@ -62,15 +62,8 @@
 		navbarToggler.classList.toggle("active");
 	});
 
-
-
-
   //Animation on Scroll initializing
   AOS.init();
-
-  
-  
-  
   
   const words = ['Digital', 'Robotic', 'Future']; // Add your words here
   const wordElement = document.getElementById('word');
@@ -86,7 +79,7 @@
       wordElement.style.transform = 'translateY(-20px)';
       currentIndex = (currentIndex + 1) % words.length;
       setTimeout(fadeInWord, 1000); // Adjust the delay here (1s = 1000ms)
-    }, 2000); // Word display time (3s = 3000ms)
+    }, 5000); // Word display time (3s = 3000ms)
   }
 
 

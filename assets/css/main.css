@@ -1264,6 +1264,11 @@ h6 a {
   margin-top: 0; /* Removes any top margin from the title if not needed */
 }
 
+.cbtc h1 {
+  text-align: center; /* Aligns the title to the left */
+  margin-top: 0; /* Removes any top margin from the title if not needed */
+}
+
 .cbtc p {
   font-size: 15px;
   margin-bottom: 20px;
@@ -1729,8 +1734,8 @@ h6 a {
   text-align: center;
   font-family: "Outfit", sans-serif;
   font-size: 23px;
-  font-style: normal;
-  font-weight: 600;
+  font-style: bold  ;
+  font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
   color: #005EB8;

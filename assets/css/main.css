@@ -1943,6 +1943,10 @@ h6 a {
 }
 @media only screen and (max-width: 767px) {
   .phone-screenshot {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: -10px;
     margin-right: -10px;
     object-fit: cover;

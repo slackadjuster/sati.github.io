@@ -1906,6 +1906,7 @@ h6 a {
   font-weight: 400;
   padding: 0px 10px;
   margin-bottom: 22px;
+  padding-top: 100px;
 }
 @media only screen and (max-width: 767px) {
   .anytime .sec-t p {

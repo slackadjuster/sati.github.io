@@ -738,6 +738,21 @@ h6 a {
   }
 }
 
+
+/* Targeting the .team-info within the hero-area specifically */
+.hero-area .team-info {
+  margin-top: 20px; /* Adjust this value as needed to increase spacing */
+}
+
+.hero-area .team-info h5 {
+  font-size: 15px; /* Decreases the font size by 30% */
+  font-weight: 600 ;
+}
+.hero-area .team-info p {
+  font-size: 14px; /* Decreases the font size by 30% */
+  margin-top: 10px;
+}
+
 /*--------------------------------------------------------------
   ## stand
 --------------------------------------------------------------*/

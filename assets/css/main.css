@@ -2575,7 +2575,7 @@ h6 a {
   object-fit: cover;
 }
 .clients .client-single p {
-  padding-top: 8px;
+  padding-top: 20px;
 }
 .clients .client-single:hover {
   -webkit-transform: scale(1.04);

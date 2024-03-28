@@ -643,6 +643,17 @@ h6 a {
   width: 100%;
   min-height: 100vh;
 }
+
+div.team-single img {
+  width: 180px !important; /* Reduces the image width to half */
+  height: auto !important; /* Ensures the height adjusts to maintain the aspect ratio */
+}
+
+div.team-single team-info{
+  font-size: 10px;
+}
+
+
 .hero-area::after {
   content: "";
   position: absolute;

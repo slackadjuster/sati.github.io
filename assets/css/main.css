@@ -1268,6 +1268,9 @@ h6 a {
 /* cbtc */
 .cbtc {
   padding: 80px 96px; /* Same padding as before, 1 inch on each side */
+  min-height: 120vh;
+  height: max-content;
+
 }
 
 .cbtc .sec-content {
@@ -1330,30 +1333,6 @@ h6 a {
   margin-top: 20px;
 }
 
-
-
-@media only screen and (max-width: 767px) {
-  .cbtc {
-    padding: 50px 96px; /* Adjusted padding for mobile screens */
-  }
-
-  .premier-image {
-    float: none; /* Prevents the image from floating on smaller screens */
-    display: block; /* Centers the image */
-    height: auto; /* Adjust height to be responsive */
-    margin: 0 auto 20px; /* Adds margin to the bottom and centers the image */
-  }
-
-  .cbtc h2, .cbtc p {
-    text-align: left; /* Ensures text is aligned left on smaller screens */
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  .cbtc p {
-    font-size: 20px;
-  }
-}
 
 
 

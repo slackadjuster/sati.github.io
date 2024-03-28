@@ -428,18 +428,18 @@ h6 a {
   text-decoration: none;
 }
 .navbar .navbar-brand img {
-  height: 22px;
+  height: 50px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 @media only screen and (max-width: 767px) {
   .navbar .navbar-brand img {
-    height: 20px;
+    height: 35px;
   }
 }
 @media only screen and (max-width: 482px) {
   .navbar .navbar-brand img {
-    height: 20px;
+    height: 35px;
   }
 }
 .navbar .navbar-nav {
@@ -2557,6 +2557,7 @@ h6 a {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+
 }
 .clients .client-single {
   width: 150px;
@@ -2580,6 +2581,8 @@ h6 a {
   -webkit-transform: scale(1.04);
           transform: scale(1.04);
 }
+
+
 
 /*--------------------------------------------------------------
   ## social-section

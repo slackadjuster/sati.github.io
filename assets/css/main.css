@@ -2714,10 +2714,10 @@ h6 a {
   }
 }
 .main-footer .footer-logo-w {
-  max-width: 270px;
+  max-width: 500px;
 }
 .main-footer .footer-logo-w .footer-logo {
-  height: 26px;
+  height: 120px;
 }
 .main-footer .footer-logo-w p {
   font-size: 14px;

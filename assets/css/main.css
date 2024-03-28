@@ -1268,8 +1268,6 @@ h6 a {
 /* cbtc */
 .cbtc {
   padding: 80px 96px; /* Same padding as before, 1 inch on each side */
-  min-height: 120vh;
-  height: max-content;
 
 }
 

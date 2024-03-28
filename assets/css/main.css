@@ -1291,6 +1291,11 @@ h6 a {
   margin-top: 0; /* Removes any top margin from the title if not needed */
 }
 
+.cbtc h5 {
+  font-size: 20px;
+  
+}
+
 .cbtc p {
   font-size: 15px;
   margin-bottom: 20px;
@@ -1306,7 +1311,7 @@ h6 a {
   background-repeat: no-repeat;
   padding: 120px 96px;
   font-size: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -1317,6 +1322,12 @@ h6 a {
   padding: 2px;
 }
 
+.team-info.bottom-text {
+  margin-top: 600px;
+  position: absolute;
+  bottom: -280px; /* Positions the element at the bottom */
+  left: 0; /* Positions the element to the left of its container */
+}
 
 
 
@@ -1797,7 +1808,7 @@ h6 a {
           transform: skewY(8deg);
   border-radius: 40.5px;
   border: 3px solid #ffe39b;;
-  margin-left: 18px;
+  margin-left: 19px;
   justify-content: center;
   align-items: center;
 }

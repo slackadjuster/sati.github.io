@@ -65,7 +65,7 @@
   //Animation on Scroll initializing
   AOS.init();
   
-  const words = ['Digital', 'Robotic', 'Future']; // Add your words here
+  const words = ['Digital', 'AI', 'Robotic', 'Future']; // Add your words here
   const wordElement = document.getElementById('word');
   let currentIndex = 0;
 

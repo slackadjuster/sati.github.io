@@ -1292,7 +1292,7 @@ h6 a {
 }
 
 .cbtc h5 {
-  font-size: 20px;
+  font-size: 18px;
   
 }
 
@@ -1323,10 +1323,11 @@ h6 a {
 }
 
 .team-info.bottom-text {
-  margin-top: 600px;
+  margin-top: 750px;
   position: absolute;
   bottom: -280px; /* Positions the element at the bottom */
   left: 0; /* Positions the element to the left of its container */
+  margin-top: 20px;
 }
 
 
@@ -1353,6 +1354,8 @@ h6 a {
     font-size: 20px;
   }
 }
+
+
 
 
 

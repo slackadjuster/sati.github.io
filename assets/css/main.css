@@ -2577,7 +2577,7 @@ div.team-single team-info{
   }
 
   .clients .client-single {
-    margin-bottom: 80px; /* Add more space below each client */
+    margin-bottom: 100px; /* Add more space below each client */
   }
   .clients {
     margin-bottom: 80px;

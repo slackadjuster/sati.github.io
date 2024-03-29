@@ -2569,6 +2569,22 @@ div.team-single team-info{
     margin-bottom: 60px;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .clients .client-single p {
+    padding: 0 10px; /* Add horizontal padding to the paragraph */
+    margin-bottom: 60px; /* Add some space below the paragraph */
+  }
+
+  .clients .client-single {
+    margin-bottom: 80px; /* Add more space below each client */
+  }
+  .clients {
+    margin-bottom: 80px;
+  }
+}
+
+
 .clients .row-wrapper {
   max-width: 900px;
   margin-left: auto;

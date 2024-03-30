@@ -79,7 +79,7 @@
       wordElement.style.transform = 'translateY(-20px)';
       currentIndex = (currentIndex + 1) % words.length;
       setTimeout(fadeInWord, 1000); // Adjust the delay here (1s = 1000ms)
-    }, 5000); // Word display time (3s = 3000ms)
+    }, 3000); // Word display time (3s = 3000ms)
   }
 
 

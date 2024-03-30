@@ -1137,6 +1137,8 @@ div.team-single team-info{
   color: #bbb;
   display: inline-block;
   padding-left: 6px;
+  position: relative;
+  top: -20px;
 }
 @media only screen and (max-width: 991px) {
   .row-wrapper .bt span {
@@ -1162,6 +1164,9 @@ div.team-single team-info{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-left: 60px;
+  position: relative;
+  top: -20px; 
+
 }
 
 .row-wrapper .bt h3 {
@@ -1231,7 +1236,15 @@ div.team-single team-info{
   font-weight: 600;
   line-height: normal;
   letter-spacing: 2px;
+  position: relative;
+  bottom: -20px;
 }
+
+.mid-row .bt-d h3 {
+  position: relative;
+  top: 20px;
+}
+
 @media only screen and (max-width: 991px) {
   .mid-row .bt-d h5 {
     font-size: 60px;

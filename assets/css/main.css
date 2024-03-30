@@ -647,6 +647,7 @@ h6 a {
 div.team-single img {
   width: 180px !important; /* Reduces the image width to half */
   height: auto !important; /* Ensures the height adjusts to maintain the aspect ratio */
+  border-radius: 20px;
 }
 
 div.team-single team-info{
@@ -1163,14 +1164,14 @@ div.team-single team-info{
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding-left: 60px;
+  padding-left: 90px;
   position: relative;
-  top: -20px; 
+  top: -25px; 
 
 }
 
 .row-wrapper .bt h3 {
-  padding-left: 60px;
+  padding-left: 90px;
 }
 
 @media only screen and (max-width: 991px) {

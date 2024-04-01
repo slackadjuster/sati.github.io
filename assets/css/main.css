@@ -928,7 +928,7 @@ div.team-single team-info{
   }
 }
 .case-single .case-img {
-  height: 165px;
+  height: 220px;
   -o-object-fit: contain;
      object-fit: contain;
   margin-bottom: 50px;
@@ -1224,6 +1224,13 @@ div.team-single team-info{
     max-width: 270px;
     top: 33%;
     left: 45%;
+  }
+}
+
+@media only screen and (max-width: 482px) {
+  .row-wrapper .bt h5 {
+    position:relative;
+    top: -200px;
   }
 }
 

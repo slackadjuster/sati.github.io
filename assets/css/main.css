@@ -1186,15 +1186,6 @@ div.team-single team-info{
 @media only screen and (max-width: 767px) {
   .row-wrapper .bt h5 {
     font-size: 56px;
-    margin-left: 350px;
-    margin-right: 10px;
-    margin-top: 15%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .row-wrapper .bt h3 {
-    margin-right: 10px;
-    margin-right: 45px;
   }
 }
 
@@ -1228,14 +1219,11 @@ div.team-single team-info{
 }
 @media only screen and (max-width: 767px) {
   .row-wrapper .graph-line {
-    position: absolute;
-    max-width: 65%;
-    margin-right: 30px;
-    top: 45%;
-    right: 10%;
-    left: 45%
+    max-width: 330px;
+    top: 37%;
   }
 }
+
 @media only screen and (max-width: 482px) {
   .row-wrapper .graph-line {
     max-width: 270px;
@@ -2026,7 +2014,7 @@ div.team-single team-info{
 }
 @media only screen and (max-width: 767px) {
   .phone-screenshot .mobile-screen {
-    max-width: 350px;
+    max-width: 400px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 30px;
@@ -2034,7 +2022,7 @@ div.team-single team-info{
 }
 @media only screen and (max-width: 482px) {
   .phone-screenshot .mobile-screen {
-    max-width: 150px;
+    max-width: 350px;
   }
 }
 @media only screen and (max-width: 991px) {

@@ -428,18 +428,18 @@ h6 a {
   text-decoration: none;
 }
 .navbar .navbar-brand img {
-  height: 35px;
+  height: 22px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 @media only screen and (max-width: 767px) {
   .navbar .navbar-brand img {
-    height: 35px;
+    height: 20px;
   }
 }
 @media only screen and (max-width: 482px) {
   .navbar .navbar-brand img {
-    height: 35px;
+    height: 20px;
   }
 }
 .navbar .navbar-nav {
@@ -643,18 +643,6 @@ h6 a {
   width: 100%;
   min-height: 100vh;
 }
-
-div.team-single img {
-  width: 180px !important; /* Reduces the image width to half */
-  height: auto !important; /* Ensures the height adjusts to maintain the aspect ratio */
-  border-radius: 20px;
-}
-
-div.team-single team-info{
-  font-size: 10px;
-}
-
-
 .hero-area::after {
   content: "";
   position: absolute;
@@ -928,7 +916,7 @@ div.team-single team-info{
   }
 }
 .case-single .case-img {
-  height: 220px;
+  height: 165px;
   -o-object-fit: contain;
      object-fit: contain;
   margin-bottom: 50px;
@@ -1138,8 +1126,6 @@ div.team-single team-info{
   color: #bbb;
   display: inline-block;
   padding-left: 6px;
-  position: relative;
-  top: -20px;
 }
 @media only screen and (max-width: 991px) {
   .row-wrapper .bt span {
@@ -1152,9 +1138,6 @@ div.team-single team-info{
     font-size: 25px;
     
   }
-
-  .row-wrapper .bt 
-
 }
 .row-wrapper .bt h5 {
   font-size: 83px;
@@ -1167,26 +1150,11 @@ div.team-single team-info{
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding-left: 90px;
-
-}
-
-.mobile-br + br {
-  display: block;
-}
-
-/* Mobile screens: max-width of 767px */
-@media only screen and (max-width: 767px) {
-  .mobile-br::after {
-    content: "";
-    display: block;
-    height: 1.2em; /* Adjust this value to match your line height */
-  }
+  padding-left: 60px;
 }
 
 .row-wrapper .bt h3 {
-  padding-left: 90px;
-  padding-top: 10%;
+  padding-left: 60px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -1200,7 +1168,6 @@ div.team-single team-info{
     font-size: 56px;
   }
 }
-
 .row-wrapper .graph-line {
   position: absolute;
   top: 49%;
@@ -1232,22 +1199,14 @@ div.team-single team-info{
 @media only screen and (max-width: 767px) {
   .row-wrapper .graph-line {
     max-width: 330px;
-    top: 42%;
+    top: 37%;
   }
 }
-
 @media only screen and (max-width: 482px) {
   .row-wrapper .graph-line {
     max-width: 270px;
     top: 33%;
     left: 45%;
-  }
-}
-
-@media only screen and (max-width: 482px) {
-  .row-wrapper .bt h5 {
-    position:relative;
-    top: -200px;
   }
 }
 
@@ -1261,15 +1220,7 @@ div.team-single team-info{
   font-weight: 600;
   line-height: normal;
   letter-spacing: 2px;
-  position: relative;
-  bottom: -20px;
 }
-
-.mid-row .bt-d h3 {
-  position: relative;
-  top: 20px;
-}
-
 @media only screen and (max-width: 991px) {
   .mid-row .bt-d h5 {
     font-size: 60px;
@@ -1317,6 +1268,7 @@ div.team-single team-info{
 /* cbtc */
 .cbtc {
   padding: 80px 96px; /* Same padding as before, 1 inch on each side */
+
 }
 
 .cbtc .sec-content {
@@ -1379,34 +1331,6 @@ div.team-single team-info{
   margin-top: 20px;
 }
 
-
-
-@media only screen and (max-width: 767px) {
-  .cbtc {
-    padding: 50px 96px; /* Adjusted padding for mobile screens */
-  }
-
-  .premier-image {
-    float: none; /* Prevents the image from floating on smaller screens */
-    display: block; /* Centers the image */
-    height: auto; /* Adjust height to be responsive */
-    margin: 0 auto 20px; /* Adds margin to the bottom and centers the image */
-  }
-
-  .cbtc h2, .cbtc p {
-    text-align: left; /* Ensures text is aligned left on smaller screens */
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  .cbtc {
-    min-height: 150dvh;
-  }
-  .cbtc p {
-    font-size: 20px;
-  }
-
-}
 
 
 
@@ -2006,13 +1930,9 @@ div.team-single team-info{
           justify-content: center;
   margin-left: -20px;
   margin-right: -20px;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
 }
 @media only screen and (max-width: 767px) {
   .phone-screenshot {
-    flex-direction: column; /* Stack children vertically */
-    align-items: center; 
     margin-left: -10px;
     margin-right: -10px;
   }
@@ -2021,20 +1941,18 @@ div.team-single team-info{
   margin-left: 20px;
   margin-right: 20px;
   width: 100%;
-  max-width: 450px;
-  margin-bottom: 30px;
+  max-width: 240px;
 }
 @media only screen and (max-width: 767px) {
   .phone-screenshot .mobile-screen {
-    max-width: 400px;
+    max-width: 200px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 30px;
   }
 }
 @media only screen and (max-width: 482px) {
   .phone-screenshot .mobile-screen {
-    max-width: 350px;
+    max-width: 150px;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -2432,7 +2350,7 @@ div.team-single team-info{
   margin: 80px 0px;
   background-image: 
     linear-gradient(to bottom, rgba(53, 52, 52, 0.5), rgba(53, 52, 52, 0.5)),
-    url("../img/main/sarawak.jpeg");
+    url("../img/sarawak.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2576,16 +2494,11 @@ div.team-single team-info{
   ## clients
 --------------------------------------------------------------*/
 .clients {
-  display: flex; /* Use Flexbox */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
-  gap: 20px; /* Space between items */
-  padding: 20px 0; /* Reduced and more dynamic padding */
-  margin-bottom: 2px ;
+  padding: 80px 0px;
 }
 @media only screen and (max-width: 767px) {
   .clients {
-    padding: 20px 0px;
+    padding: 50px 0px;
   }
 }
 .clients .sec-t {
@@ -2603,38 +2516,20 @@ div.team-single team-info{
 }
 @media only screen and (max-width: 1199px) {
   .clients .sec-t h2 {
-    margin-bottom: 60px;
+    margin-bottom: 55px;
   }
 }
 @media only screen and (max-width: 767px) {
   .clients .sec-t h2 {
     font-size: 24px;
     letter-spacing: 4px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 }
-
-@media only screen and (max-width: 767px) {
-  .clients .client-single p {
-    padding: 0 10px; /* Add horizontal padding to the paragraph */
-    margin-bottom: 60px; /* Add some space below the paragraph */
-  }
-
-  .clients .client-single {
-    margin-bottom: 100px; /* Add more space below each client */
-  }
-  .clients {
-    margin-bottom: 80px;
-  }
-}
-
-
 .clients .row-wrapper {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0px;
-
 }
 .clients .client-single {
   width: 150px;
@@ -2652,14 +2547,12 @@ div.team-single team-info{
   object-fit: cover;
 }
 .clients .client-single p {
-  padding-top: 20px;
+  padding-top: 8px;
 }
 .clients .client-single:hover {
   -webkit-transform: scale(1.04);
           transform: scale(1.04);
 }
-
-
 
 /*--------------------------------------------------------------
   ## social-section
@@ -2777,11 +2670,11 @@ div.team-single team-info{
 # main-footer
 --------------------------------------------------------------*/
 .main-footer {
-  padding: 20px 0px;
+  padding: 50px 0px;
 }
 @media only screen and (max-width: 767px) {
   .main-footer {
-    padding: 10px 0px;
+    padding: 30px 0px;
   }
 }
 @media only screen and (max-width: 482px) {
@@ -2791,10 +2684,10 @@ div.team-single team-info{
   }
 }
 .main-footer .footer-logo-w {
-  max-width: 500px;
+  max-width: 270px;
 }
 .main-footer .footer-logo-w .footer-logo {
-  height: 90px;
+  height: 26px;
 }
 .main-footer .footer-logo-w p {
   font-size: 14px;

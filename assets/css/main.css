@@ -1173,6 +1173,19 @@ div.team-single team-info{
 
 }
 
+.mobile-br + br {
+  display: block;
+}
+
+/* Mobile screens: max-width of 767px */
+@media only screen and (max-width: 767px) {
+  .mobile-br::after {
+    content: "";
+    display: block;
+    height: 1.2em; /* Adjust this value to match your line height */
+  }
+}
+
 .row-wrapper .bt h3 {
   padding-left: 90px;
 }
@@ -1220,7 +1233,7 @@ div.team-single team-info{
 @media only screen and (max-width: 767px) {
   .row-wrapper .graph-line {
     max-width: 330px;
-    top: 37%;
+    top: 42%;
   }
 }
 

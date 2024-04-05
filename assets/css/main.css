@@ -1168,8 +1168,6 @@ div.team-single team-info{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-left: 90px;
-  position: relative;
-  top: -25px; 
 
 }
 
@@ -1188,6 +1186,7 @@ div.team-single team-info{
 
 .row-wrapper .bt h3 {
   padding-left: 90px;
+  padding-top: 10%;
 }
 
 @media only screen and (max-width: 991px) {

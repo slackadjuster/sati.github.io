@@ -2005,7 +2005,7 @@ div.team-single team-info{
 }
 @media only screen and (max-width: 482px) {
   .phone-screenshot .mobile-screen {
-    max-width: 150px;
+    max-width: 350px;
   }
 }
 @media only screen and (max-width: 991px) {

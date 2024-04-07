@@ -624,6 +624,19 @@ h6 a {
   margin-left: 10px;
 }
 
+.navbar-toggler {
+  border: none; /* Removes the border if there is one */
+  background: transparent; /* Makes the background transparent */
+}
+
+/* Remove the background and border when the toggler is clicked and in focus */
+.navbar-toggler:active,
+.navbar-toggler:focus {
+  background: transparent; /* Removes any background styling when active/focused */
+  border: none;
+  outline: none; /* Removes the outline when focused */
+  box-shadow: none; /* Removes the box-shadow when focused */
+}
 
 /*--------------------------------------------------------------
   ## hero-area

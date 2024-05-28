@@ -1801,24 +1801,7 @@ div.team-single team-info{
 }
 
 .f-single {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  max-width: 280px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 66px;
-  border-radius: 40.5px;
-  border: 3px solid #ffe39b;
-  background: rgba(255, 255, 255, 0.2);
-  margin-bottom: 80px;
+
 }
 @media only screen and (max-width: 991px) {
   .f-single {
@@ -1841,16 +1824,7 @@ div.team-single team-info{
   z-index: -1;
 }
 .f-single i {
-  display: inline-block;
-  width: 32px;
-  height: 125px;
-  -webkit-transform: skewY(8deg);
-          transform: skewY(8deg);
-  border-radius: 40.5px;
-  border: 3px solid #ffe39b;;
-  margin-left: 19px;
-  justify-content: center;
-  align-items: center;
+
 }
 @media only screen and (max-width: 991px) {
   .f-single i {
@@ -1900,6 +1874,46 @@ div.team-single team-info{
   margin-left: auto;
   margin-right: auto;
 }
+
+
+.pillar-icon img {
+  width: 100%; /* Adjust to scale with the container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensures the image is resized properly */
+  margin-top: 1px;  /* Small margin at the top */
+  margin-bottom: 1px;  /* Small margin at the bottom */
+}
+
+.f-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; /* Even spacing among children */
+  align-items: center; /* Center items horizontally */
+  height: 100%; /* Full height of the container */
+}
+
+/* Media queries for different screen sizes */
+@media (min-width: 1024px) {
+  .pillar-icon img {
+    width: 250px; /* Fixed width for larger screens */
+    height: 250px; /* Fixed height for larger screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .pillar-icon img {
+    width: 150px; /* Smaller width for tablets */
+    height: 150px; /* Smaller height for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .pillar-icon img {
+    width: 100px; /* Smaller width for mobile phones */
+    height: 100px; /* Smaller height for mobile phones */
+  }
+}
+
 
 /*--------------------------------------------------------------
   ## anytime
